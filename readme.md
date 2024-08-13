@@ -118,7 +118,7 @@ database.connect().then(() => {
 ## Explicação das Principais Partes
 - CORS Options: Configura as origens permitidas para acessar o backend, especificando quais métodos e cabeçalhos são permitidos.
 
-- DatabaseFactory: Cria a conexão com o banco de dados baseado no tipo especificado no arquivo .env.
+- DatabaseFactory: Cria a conexão com o banco de dados baseado no tipo especificado no arquivo .env. aqui é importante destacar a estrategia de troca de banco de forma simples, os três principais bancos foram testados, MySQL, MongoDB, e SQlite~.~
 
 - app.use('/index.php', votoRoutes.router): Define o prefixo /index.php para as rotas. Isso facilita a troca de URL no frontend sem a necessidade de alterar o código no backend.
 
