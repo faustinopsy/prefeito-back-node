@@ -1,6 +1,10 @@
 # Sistema de Estatísticas de Intenção de Votos - Back-end (Node.js)
 Este é o back-end do sistema autônomo para levantamento de estatísticas de intenção de votos para a prefeitura de São Paulo, agora implementado em Node.js. Ele é responsável por armazenar os votos dos usuários e fornecer as informações necessárias para a geração de gráficos no front-end.
 
+o link do front funcionando:
+https://prefeitosp.faustinopsy.com
+
+
 ## Funcionalidades
 Registro de votos de usuários, incluindo o candidato e a região escolhidos.
 Verificação se um usuário já registrou um voto.
@@ -15,7 +19,7 @@ Suporte a várias bases de dados, incluindo MySQL, SQLite, PostgreSQL, Oracle, S
 Clone este repositório:
 
 ```bash
-git clone https://github.com/faustinopsy/prefeito-back.git
+git clone https://github.com/faustinopsy/prefeito-back-node.git
 ```
 ### Instale as dependências via npm:
 
